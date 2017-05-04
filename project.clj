@@ -7,4 +7,9 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :eval-in-leiningen true
 
-  :plugins [[com.roomkey/lein-v "6.1.0"]])
+  :plugins [[com.roomkey/lein-v "6.1.0"]]
+
+  :release-tasks [["vcs" "assert-committed"]
+                  ["v" "update"] ;; compute new version & tag it
+                  ["vcs" "push"]]
+  )
