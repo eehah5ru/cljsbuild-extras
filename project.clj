@@ -1,4 +1,4 @@
-(defproject cljsbuild-extras :lein-v
+(defproject org.clojars.eehah5ru/cljsbuild-extras :lein-v
   :dependencies [[robert/hooke "1.3.0"]
                  ]
   :description "extra functionality for lein-cljsbuild"
