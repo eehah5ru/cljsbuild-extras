@@ -6,12 +6,12 @@ A Leiningen plugin that extends lein-cljsbuild functionality
 
 Use this for user-level plugins:
 
-Put `[cljsbuild-extras "0.1.0"]` into the `:plugins` vector of your `:user`
+Put `[cljsbuild-extras "0.0.2"]` into the `:plugins` vector of your `:user`
 profile.
 
 Use this for project-level plugins:
 
-Put `[cljsbuild-extras "0.1.0"]` into the `:plugins` vector of your project.clj.
+Put `[cljsbuild-extras "0.0.2"]` into the `:plugins` vector of your project.clj.
 
 Now you can use functions as values of `:cljsbuild` map. Function takes one arg: `project`:
 
